@@ -2,6 +2,16 @@
 
 > Vue Performance Test
 
+### For running performance test
+```
+$ npm install
+$ npm run build
+$ cd dist
+
+$ npm install -g http-server
+$ http-server
+```
+
 ## Build Setup
 
 ``` bash

@@ -1,12 +1,19 @@
 <template>
   <div class="hello">
     <h2>{{ msg }}</h2>
+    <Calendar/>
   </div>
 </template>
 
 <script>
+
+import Calendar from './Calendar';
+
 export default {
   name: 'HelloWorld',
+  components: {
+    Calendar
+  },
   data () {
     return {
       msg: 'Vue Performance Test'
